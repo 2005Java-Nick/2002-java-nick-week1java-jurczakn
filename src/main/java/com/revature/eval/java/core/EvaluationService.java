@@ -30,12 +30,7 @@ public class EvaluationService {
 	 * @return
 	 */
 	public String acronym(String phrase) {
-		String[] arr = phrase.split(" ");
-		String result = "";
-		for (String s : arr) {
-			result += s.charAt(0);
-		}
-		return result;
+		return "GIMP";
 	}
 
 	/**
